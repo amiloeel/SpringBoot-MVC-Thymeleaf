@@ -48,8 +48,7 @@
 
 		<dependency>
 		    <groupId>org.webjars</groupId>
-		    <artifactId>webjars-locator</artifactId>
-		    <version>0.30</version>
+		    <artifactId>webjars-locator-core</artifactId>
 		</dependency>
 		
 		<dependency>
@@ -81,6 +80,12 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		
+		<dependency>
+			<groupId>nz.net.ultraq.thymeleaf</groupId>
+			<artifactId>thymeleaf-layout-dialect</artifactId>
+		</dependency>
+		
 	</dependencies>
 
 	<build>
